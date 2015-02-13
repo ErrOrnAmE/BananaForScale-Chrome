@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
 
 	document.getElementById("github").addEventListener("click", function (event) {
-		chrome.tabs.create({ url: "https://github.com" });
+		chrome.tabs.create({ url: "https://github.com/ErrOrnAmE/BananaForScale-Chrome" });
 	});
 });
 
