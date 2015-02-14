@@ -4,7 +4,7 @@ Extension Chrome - Banana For Scale
 Banana For Scale is an extension for Chrome that let you mesure how much you have scrolled on 9GAG. The mesurement is made in Bananas, because, you know it's... Universal.
 
 ### Version
-1.0.1
+1.0.2
 
 You can download it in the [Google Webstore]
 
