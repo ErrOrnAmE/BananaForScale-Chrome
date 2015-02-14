@@ -9,6 +9,9 @@ chrome.storage.sync.get("pixelScrolled", function(data) {
     }
 
 	pixels = parseInt(data.pixelScrolled);
+	if (isNaN(pixels)) {
+		pixels = 0;
+	}
 });
 
 chrome.runtime.onMessage.addListener(function(message,sender,sendResponse){
